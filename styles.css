@@ -1,6 +1,12 @@
-body {
-    font-family: "Poppins.ttf", "JPoppins-Medium.ttf";
+@font-face {
+    font-family: "Poppins";
+    src: url("/fonts/Poppins.ttf");
 }
+
+@font-face {
+    font-family: "Poppins-Medium";
+    src: url("/fonts/Poppins-Medium.ttf");
+  }
 
 h1 {
     font-size: 35px;
@@ -8,7 +14,6 @@ h1 {
   
 h2 {
     font-size: 25px;
-    color: white
 }
 
 header {
