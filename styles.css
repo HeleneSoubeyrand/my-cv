@@ -1,6 +1,6 @@
 @font-face {
     font-family: "Poppins";
-    src: url("/fonts/Poppins.ttf");
+    src: url("/fonts/poppins.ttf");
 }
 
 @font-face {
@@ -8,29 +8,74 @@
     src: url("/fonts/Poppins-Medium.ttf");
   }
 
+body {
+    font-family: "Poppins", "Poppins-Medium";
+    vertical-align: baseline;
+  }
+
 h1 {
-    font-size: 35px;
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
 }
   
 h2 {
-    font-size: 25px;
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 30px ;
 }
 
-header {
+h3 {
+    font-size: 14px;
+    font-weight: bold;
+    line-height: normal ; 
+}
+
+p{
+    font-size: 12px;
+    line-height: normal ; 
+}
+
+nav {
     position: fixed;
+    color : white;
     background-color: #0475ba;
-    height: 60px;
+    height: 72px;
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
 
+nav ul li {
+    
+}
+
 #photo-identite {
-    width: 50px;
-	height: 60px;
+    width: 150px;
+	height: 150px;
 }
 
 .Blue {
+    color: white;
     background-color: #0475ba;
+    padding: 40px 120px;
+}
+
+.White {
+    color: black;
+    background-color:white;
+    padding: 40px 120px;
+}
+
+.White h2 {
+    color: #0475ba;
+}
+
+#Présentation ul li {
+    margin-left: 20px;
+    list-style: disc ;
+    font-size: 12px ;
+    line-height: normal ; 
+    
 }
