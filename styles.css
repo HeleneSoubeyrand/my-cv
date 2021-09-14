@@ -1,0 +1,31 @@
+body {
+    font-family: "Poppins.ttf", "JPoppins-Medium.ttf";
+}
+
+h1 {
+    font-size: 35px;
+}
+  
+h2 {
+    font-size: 25px;
+    color: white
+}
+
+header {
+    position: fixed;
+    background-color: #0475ba;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+#photo-identite {
+    width: 50px;
+	height: 60px;
+}
+
+.Blue {
+    background-color: #0475ba;
+}
