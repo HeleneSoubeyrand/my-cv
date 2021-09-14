@@ -17,6 +17,7 @@ h1 {
     font-size: 24px;
     font-weight: bold;
     color: black;
+    padding: 100px 0 50px 0 ;
 }
   
 h2 {
@@ -29,6 +30,7 @@ h3 {
     font-size: 14px;
     font-weight: bold;
     line-height: normal ; 
+    padding-bottom: 10px ;
 }
 
 p{
@@ -38,22 +40,29 @@ p{
 
 nav {
     position: fixed;
-    color : white;
     background-color: #0475ba;
     height: 72px;
     width: 100%;
+}
+nav ul {
+    color : white;
+    list-style-type: none;
     display: flex;
-    justify-content: space-between;
     align-items: center;
-  }
+}
 
-nav ul li {
-    
+nav ul a{
+    color: white;
+}
+
+nav ul a:hover{
+    color:rgb(201, 201, 201);
 }
 
 #photo-identite {
     width: 150px;
 	height: 150px;
+    border-radius:50%;
 }
 
 .Blue {
@@ -74,8 +83,34 @@ nav ul li {
 
 #Présentation ul li {
     margin-left: 20px;
-    list-style: disc ;
     font-size: 12px ;
+    list-style: disc ;
     line-height: normal ; 
     
+}
+
+td {
+    font-size: 12px ;
+    line-height: normal ; 
+    padding-right: 40px ;
+}
+
+table h3 {
+    font-size: 14px;
+    font-weight: bold;
+    line-height: normal ; 
+}
+
+footer{
+    background-color: #0475ba;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer a {
+    font-size: 12px ;  
+}
+
+footer a:hover {
+    color: white;
 }
